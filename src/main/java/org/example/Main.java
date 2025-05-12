@@ -12,6 +12,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+        systemManager.addPlanet(Factory.createPlanet());
+        systemManager.addStar(Factory.createStar());
+
         do{
             option = Menu.showMenu();
 
