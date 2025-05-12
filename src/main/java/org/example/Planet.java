@@ -14,7 +14,7 @@ public class Planet extends CelestialBody{
         this.atmosphere = atmosphere;
     }
 
-        public int getMoonList() {
+    public int getMoonList() {
         return moonList.size();
     }
 

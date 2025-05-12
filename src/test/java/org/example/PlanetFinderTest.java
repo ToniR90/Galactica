@@ -1,14 +1,19 @@
 package org.example;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
 class PlanetFinderTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void findPlanets() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void findPlanetsWithAtmosphere() {
+    }
+
+    @Test
+    void findMoonByPlanet() {
     }
 }

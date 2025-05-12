@@ -20,4 +20,12 @@ public class PlanetFinder {
         }
     }
 
+    public static void findMoonByPlanet(List<Planet> planets , String name){
+        for(Planet planet : planets){
+            if(planet.getName().equalsIgnoreCase(name)){
+                System.out.println(planet.getMoonList());
+            }
+        }
+    }
+
 }

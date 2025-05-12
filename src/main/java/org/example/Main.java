@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,6 +10,7 @@ public class Main {
 
         System.out.println("Welcome to the Planet Project!!");
 
+        Scanner sc = new Scanner(System.in);
 
         do{
             option = Menu.showMenu();
@@ -22,7 +25,9 @@ public class Main {
                     break;
 
                 case 3:
-
+                    System.out.println("Insert the planet's name");
+                    String name = sc.nextLine();
+                    PlanetFinder.findMoonByPlanet(systemManager.getPlanetList() , name);
                     break;
 
                 case 0:
